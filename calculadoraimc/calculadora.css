@@ -1,0 +1,10 @@
+#calculadora {
+    background-color: rgb(246, 202, 202);
+    border-radius: 5px;
+    padding: 1em;
+    width: fit-content;
+}
+
+.numero {
+    text-align: right;
+} 
