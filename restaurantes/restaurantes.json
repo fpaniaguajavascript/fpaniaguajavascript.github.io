@@ -1,0 +1,556 @@
+{
+    "restaurantes": [
+        {
+            "imagen": null,
+            "nombre": "Burguer King",
+            "estilo": "Tex-mex",
+            "precio": 30
+        },
+        {
+            "imagen": "images/r2.jpg",
+            "nombre": "Suzuki",
+            "estilo": "Japonés",
+            "precio": 30
+        },
+        {
+            "imagen": null,
+            "nombre": "Basmati",
+            "estilo": "Indio",
+            "precio": 30
+        },
+        {
+            "imagen": "images/r1.jpg",
+            "nombre": "La Trattoria",
+            "estilo": "Italiano",
+            "precio": 25
+        },
+        {
+            "imagen": "images/r2.jpg",
+            "nombre": "El Asador",
+            "estilo": "Argentino",
+            "precio": 40
+        },
+        {
+            "imagen": "images/r3.jpg",
+            "nombre": "Le Gourmet",
+            "estilo": "Francés",
+            "precio": 50
+        },
+        {
+            "imagen": "images/r1.jpg",
+            "nombre": "Sushi Master",
+            "estilo": "Japonés",
+            "precio": 35
+        },
+        {
+            "imagen": "images/r2.jpg",
+            "nombre": "Taco Bell",
+            "estilo": "Mexicano",
+            "precio": 20
+        },
+        {
+            "imagen": "images/r3.jpg",
+            "nombre": "Pasta House",
+            "estilo": "Italiano",
+            "precio": 28
+        },
+        {
+            "imagen": "images/r1.jpg",
+            "nombre": "Bistro Cafe",
+            "estilo": "Francés",
+            "precio": 30
+        },
+        {
+            "imagen": "images/r2.jpg",
+            "nombre": "Dragon Express",
+            "estilo": "Chino",
+            "precio": 22
+        },
+        {
+            "imagen": "images/r3.jpg",
+            "nombre": "Curry Palace",
+            "estilo": "Indio",
+            "precio": 32
+        },
+        {
+            "imagen": "images/r1.jpg",
+            "nombre": "The BBQ Pit",
+            "estilo": "Americano",
+            "precio": 27
+        },
+        {
+            "imagen": "images/r2.jpg",
+            "nombre": "Bella Italia",
+            "estilo": "Italiano",
+            "precio": 29
+        },
+        {
+            "imagen": "images/r3.jpg",
+            "nombre": "La Paella",
+            "estilo": "Español",
+            "precio": 34
+        },
+        {
+            "imagen": "images/r1.jpg",
+            "nombre": "Kabob House",
+            "estilo": "Mediterráneo",
+            "precio": 26
+        },
+        {
+            "imagen": "images/r2.jpg",
+            "nombre": "Spice Route",
+            "estilo": "Indio",
+            "precio": 31
+        },
+        {
+            "imagen": "images/r3.jpg",
+            "nombre": "The Diner",
+            "estilo": "Americano",
+            "precio": 25
+        },
+        {
+            "imagen": "images/r1.jpg",
+            "nombre": "Oishi Sushi",
+            "estilo": "Japonés",
+            "precio": 38
+        },
+        {
+            "imagen": "images/r2.jpg",
+            "nombre": "La Cantina",
+            "estilo": "Mexicano",
+            "precio": 24
+        },
+        {
+            "imagen": "images/r3.jpg",
+            "nombre": "Peking Duck",
+            "estilo": "Chino",
+            "precio": 33
+        },
+        {
+            "imagen": "images/r1.jpg",
+            "nombre": "Ristorante Roma",
+            "estilo": "Italiano",
+            "precio": 30
+        },
+        {
+            "imagen": "images/r2.jpg",
+            "nombre": "The Seafood Bar",
+            "estilo": "Mariscos",
+            "precio": 45
+        },
+        {
+            "imagen": "images/r3.jpg",
+            "nombre": "Steakhouse",
+            "estilo": "Americano",
+            "precio": 40
+        },
+        {
+            "imagen": "images/r1.jpg",
+            "nombre": "Vegan Delight",
+            "estilo": "Vegano",
+            "precio": 28
+        },
+        {
+            "imagen": "images/r2.jpg",
+            "nombre": "Tapas Tapas",
+            "estilo": "Español",
+            "precio": 32
+        },
+        {
+            "imagen": "images/r3.jpg",
+            "nombre": "Le Bistro",
+            "estilo": "Francés",
+            "precio": 34
+        },
+        {
+            "imagen": "images/r1.jpg",
+            "nombre": "Burguer Haven",
+            "estilo": "Americano",
+            "precio": 22
+        },
+        {
+            "imagen": "images/r2.jpg",
+            "nombre": "Curry Kitchen",
+            "estilo": "Indio",
+            "precio": 30
+        },
+        {
+            "imagen": "images/r3.jpg",
+            "nombre": "Noodle House",
+            "estilo": "Chino",
+            "precio": 27
+        },
+        {
+            "imagen": "images/r1.jpg",
+            "nombre": "Pizza Express",
+            "estilo": "Italiano",
+            "precio": 24
+        },
+        {
+            "imagen": "images/r2.jpg",
+            "nombre": "Mexican Grill",
+            "estilo": "Mexicano",
+            "precio": 28
+        },
+        {
+            "imagen": "images/r3.jpg",
+            "nombre": "Sushi World",
+            "estilo": "Japonés",
+            "precio": 36
+        },
+        {
+            "imagen": "images/r1.jpg",
+            "nombre": "Bistro Italiano",
+            "estilo": "Italiano",
+            "precio": 29
+        },
+        {
+            "imagen": "images/r2.jpg",
+            "nombre": "Thai Spice",
+            "estilo": "Tailandés",
+            "precio": 33
+        },
+        {
+            "imagen": "images/r3.jpg",
+            "nombre": "French Quarter",
+            "estilo": "Francés",
+            "precio": 37
+        },
+        {
+            "imagen": "images/r1.jpg",
+            "nombre": "Burger Spot",
+            "estilo": "Americano",
+            "precio": 23
+        },
+        {
+            "imagen": "images/r2.jpg",
+            "nombre": "Spice Bazaar",
+            "estilo": "Indio",
+            "precio": 29
+        },
+        {
+            "imagen": "images/r3.jpg",
+            "nombre": "Dim Sum House",
+            "estilo": "Chino",
+            "precio": 28
+        },
+        {
+            "imagen": "images/r1.jpg",
+            "nombre": "Pasta Mania",
+            "estilo": "Italiano",
+            "precio": 26
+        },
+        {
+            "imagen": "images/r2.jpg",
+            "nombre": "La Fiesta",
+            "estilo": "Mexicano",
+            "precio": 27
+        },
+        {
+            "imagen": "images/r3.jpg",
+            "nombre": "Sushi Zen",
+            "estilo": "Japonés",
+            "precio": 35
+        },
+        {
+            "imagen": "images/r1.jpg",
+            "nombre": "Trattoria Toscana",
+            "estilo": "Italiano",
+            "precio": 31
+        },
+        {
+            "imagen": "images/r2.jpg",
+            "nombre": "Urban Grill",
+            "estilo": "Americano",
+            "precio": 28
+        },
+        {
+            "imagen": "images/r3.jpg",
+            "nombre": "Bistro de Paris",
+            "estilo": "Francés",
+            "precio": 38
+        },
+        {
+            "imagen": "images/r1.jpg",
+            "nombre": "Noodle Express",
+            "estilo": "Chino",
+            "precio": 24
+        },
+        {
+            "imagen": "images/r2.jpg",
+            "nombre": "El Mariachi",
+            "estilo": "Mexicano",
+            "precio": 26
+        },
+        {
+            "imagen": "images/r3.jpg",
+            "nombre": "Sushi Palace",
+            "estilo": "Japonés",
+            "precio": 39
+        },
+        {
+            "imagen": "images/r1.jpg",
+            "nombre": "La Dolce Vita",
+            "estilo": "Italiano",
+            "precio": 30
+        },
+        {
+            "imagen": "images/r2.jpg",
+            "nombre": "Spice Village",
+            "estilo": "Indio",
+            "precio": 33
+        },
+        {
+            "imagen": "images/r3.jpg",
+            "nombre": "Burger Joint",
+            "estilo": "Americano",
+            "precio": 22
+        },
+        {
+            "imagen": "images/r1.jpg",
+            "nombre": "Pasta Fresca",
+            "estilo": "Italiano",
+            "precio": 27
+        },
+        {
+            "imagen": "images/r2.jpg",
+            "nombre": "La Hacienda",
+            "estilo": "Mexicano",
+            "precio": 28
+        },
+        {
+            "imagen": "images/r3.jpg",
+            "nombre": "Tokyo Grill",
+            "estilo": "Japonés",
+            "precio": 34
+        },
+        {
+            "imagen": "images/r1.jpg",
+            "nombre": "Café de Flore",
+            "estilo": "Francés",
+            "precio": 36
+        },
+        {
+            "imagen": "images/r2.jpg",
+            "nombre": "Burger Factory",
+            "estilo": "Americano",
+            "precio": 23
+        },
+        {
+            "imagen": "images/r3.jpg",
+            "nombre": "Spicy Curry",
+            "estilo": "Indio",
+            "precio": 29
+        },
+        {
+            "imagen": "images/r1.jpg",
+            "nombre": "Noodles & Co",
+            "estilo": "Chino",
+            "precio": 25
+        },
+        {
+            "imagen": "images/r2.jpg",
+            "nombre": "Mamma Mia",
+            "estilo": "Italiano",
+            "precio": 28
+        },
+        {
+            "imagen": "images/r3.jpg",
+            "nombre": "El Burrito",
+            "estilo": "Mexicano",
+            "precio": 27
+        },
+        {
+            "imagen": "images/r1.jpg",
+            "nombre": "Sakura Sushi",
+            "estilo": "Japonés",
+            "precio": 35
+        },
+        {
+            "imagen": "images/r2.jpg",
+            "nombre": "La Piazza",
+            "estilo": "Italiano",
+            "precio": 30
+        },
+        {
+            "imagen": "images/r3.jpg",
+            "nombre": "Grill House",
+            "estilo": "Americano",
+            "precio": 29
+        },
+        {
+            "imagen": "images/r1.jpg",
+            "nombre": "Café Roma",
+            "estilo": "Italiano",
+            "precio": 28
+        },
+        {
+            "imagen": "images/r2.jpg",
+            "nombre": "Indian Spice",
+            "estilo": "Indio",
+            "precio": 32
+        },
+        {
+            "imagen": "images/r3.jpg",
+            "nombre": "Burger Nation",
+            "estilo": "Americano",
+            "precio": 24
+        },
+        {
+            "imagen": "images/r1.jpg",
+            "nombre": "Pasta Bella",
+            "estilo": "Italiano",
+            "precio": 29
+        },
+        {
+            "imagen": "images/r2.jpg",
+            "nombre": "Mexican Wave",
+            "estilo": "Mexicano",
+            "precio": 27
+        },
+        {
+            "imagen": "images/r3.jpg",
+            "nombre": "Sushi Delight",
+            "estilo": "Japonés",
+            "precio": 33
+        },
+        {
+            "imagen": "images/r1.jpg",
+            "nombre": "La Provence",
+            "estilo": "Francés",
+            "precio": 35
+        },
+        {
+            "imagen": "images/r2.jpg",
+            "nombre": "Burger Barn",
+            "estilo": "Americano",
+            "precio": 26
+        },
+        {
+            "imagen": "images/r3.jpg",
+            "nombre": "Curry House",
+            "estilo": "Indio",
+            "precio": 31
+        },
+        {
+            "imagen": "images/r1.jpg",
+            "nombre": "Noodle Box",
+            "estilo": "Chino",
+            "precio": 25
+        },
+        {
+            "imagen": "images/r2.jpg",
+            "nombre": "Pizza Parlour",
+            "estilo": "Italiano",
+            "precio": 28
+        },
+        {
+            "imagen": "images/r3.jpg",
+            "nombre": "Taco Loco",
+            "estilo": "Mexicano",
+            "precio": 26
+        },
+        {
+            "imagen": "images/r1.jpg",
+            "nombre": "Sushi House",
+            "estilo": "Japonés",
+            "precio": 34
+        },
+        {
+            "imagen": "images/r2.jpg",
+            "nombre": "Bistro Italiano",
+            "estilo": "Italiano",
+            "precio": 30
+        },
+        {
+            "imagen": "images/r3.jpg",
+            "nombre": "Gourmet Burger",
+            "estilo": "Americano",
+            "precio": 27
+        },
+        {
+            "imagen": "images/r1.jpg",
+            "nombre": "French Bistro",
+            "estilo": "Francés",
+            "precio": 36
+        },
+        {
+            "imagen": "images/r2.jpg",
+            "nombre": "Curry Garden",
+            "estilo": "Indio",
+            "precio": 32
+        },
+        {
+            "imagen": "images/r3.jpg",
+            "nombre": "Burger Hub",
+            "estilo": "Americano",
+            "precio": 25
+        },
+        {
+            "imagen": "images/r1.jpg",
+            "nombre": "La Trattoria",
+            "estilo": "Italiano",
+            "precio": 29
+        },
+        {
+            "imagen": "images/r2.jpg",
+            "nombre": "El Camino",
+            "estilo": "Mexicano",
+            "precio": 27
+        },
+        {
+            "imagen": "images/r3.jpg",
+            "nombre": "Tokyo Sushi",
+            "estilo": "Japonés",
+            "precio": 35
+        },
+        {
+            "imagen": "images/r1.jpg",
+            "nombre": "Bistro Francais",
+            "estilo": "Francés",
+            "precio": 37
+        },
+        {
+            "imagen": "images/r2.jpg",
+            "nombre": "Spice Kitchen",
+            "estilo": "Indio",
+            "precio": 30
+        },
+        {
+            "imagen": "images/r3.jpg",
+            "nombre": "Burger Lounge",
+            "estilo": "Americano",
+            "precio": 28
+        },
+        {
+            "imagen": "images/r1.jpg",
+            "nombre": "Pasta Primavera",
+            "estilo": "Italiano",
+            "precio": 27
+        },
+        {
+            "imagen": "images/r2.jpg",
+            "nombre": "La Fiesta Mexicana",
+            "estilo": "Mexicano",
+            "precio": 26
+        },
+        {
+            "imagen": "images/r3.jpg",
+            "nombre": "Sushi Heaven",
+            "estilo": "Japonés",
+            "precio": 34
+        },
+        {
+            "imagen": "images/r1.jpg",
+            "nombre": "French Bakery",
+            "estilo": "Francés",
+            "precio": 30
+        },
+        {
+            "imagen": "images/r2.jpg",
+            "nombre": "Burger King",
+            "estilo": "Americano",
+            "precio": 25
+        }
+    ]
+}

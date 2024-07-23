@@ -1,0 +1,79 @@
+/* Importar la fuente Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Aplicar la fuente Roboto a todo el documento */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#buscador {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#buscador input {
+    padding: 10px;
+}
+
+/* Estilo general para el contenedor principal */
+#restaurantes {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/* Estilo para cada restaurante */
+.restaurante {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    border: 1px solid #e67e22;
+    /* Bordes naranja */
+    padding: 10px;
+    /* Reducido el padding */
+    border-radius: 10px;
+    background-color: #fef5e7;
+    /* Fondo tono claro de naranja */
+}
+
+/* Estilo para el contenedor de la imagen */
+.imagen {
+    flex: 0 0 150px;
+}
+
+/* Estilo para la imagen del restaurante */
+.imagen img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Estilo para el contenedor de la descripción */
+.descripcion {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1;
+}
+
+/* Estilo para cada parte de la descripción */
+.descripcion .nombre {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #d35400;
+    /* Texto naranja oscuro */
+}
+
+.descripcion .tipo {
+    font-size: 1.2em;
+    color: #e67e22;
+    /* Texto naranja */
+}
+
+.descripcion .precio {
+    font-size: 1.2em;
+    color: #c0392b;
+    /* Texto rojo oscuro */
+}
