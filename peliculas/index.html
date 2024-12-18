@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Super Pelis</title>
+</head>
+<body>
+    <div id="div-formulario">
+        <input type="text" id="t-titulo" placeholder="Título">
+        <button id="b-titulo">Buscar</button>
+        <input type="text" id="t-actor" placeholder="Actor">
+        <button id="b-actor">Buscar</button>
+        <select id="s-genero">
+            <!--<option value="drama">Drama</option>-->
+        </select>
+        <button id="b-genero">Buscar</button>
+        <input type="number" id="t-anyo" placeholder="Año" min="1900" max="2030">
+        <button id="b-anyo">Buscar</button>
+
+        <label for="r-asc">Duración ascendente</label>
+        <input type="radio" id="r-asc" name="ordenar" value="ascendente" checked>
+        <label for="r-desc">Duración descendente</label>
+        <input type="radio" id="r-desc" name="ordenar" value="descendente">
+        <button id="b-ordenar">Ordenar</button>        
+    </div>
+    <div id="container">
+        <!-- Tarjeta 1 -->
+        <!--
+        <div class="card">
+            <img src="https://via.placeholder.com/300x450" alt="Póster de película">
+            <div class="card-content">
+                <h3>El Padrino</h3>
+                <p><strong>Director:</strong> Francis Ford Coppola</p>
+                <p><strong>Año:</strong> 1972</p>
+                <p><span class="genre">Género:</span> Drama, Crimen</p>
+            </div>
+        </div>
+        -->
+    </div>
+</body>
+</html>
+<script src="./myhttp.js"></script>
+<script src="./app.js"></script>
+<script src="./gestor_busquedas.js"></script>
+<script src="./gestor_ordenacion.js"></script>

@@ -1,0 +1,32 @@
+#div-formulario {
+    padding: 1em;
+    text-align: center;
+}
+
+#div-formulario input,
+button,
+select {
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+#div-formulario button {
+    background-color: rgb(77, 176, 1);
+}
+
+#div-formulario button:hover {
+    background-color: rgb(29, 109, 15);
+    cursor: pointer;
+}
+
+.card-content h3 {
+    font-size: 1.1em;
+}
+
+.card img {
+    height: 70%;
+}
+
+.card-content p:nth-child(3),p:nth-child(4) {
+    font-size: 0.70em;
+}
