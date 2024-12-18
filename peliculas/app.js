@@ -4,6 +4,9 @@ let peliculas;
 let peliculasFiltradas;
 
 function generateCard(pelicula){
+    //0. Cambiamos el contador
+    document.querySelector("#contador").textContent=peliculasFiltradas.length;
+
     //1. Crear la tarjeta
     const nuevaCard = document.createElement("div");//Crea un elemento de tipo div
     nuevaCard.setAttribute("class","card");

@@ -30,3 +30,11 @@ select {
 .card-content p:nth-child(3),p:nth-child(4) {
     font-size: 0.70em;
 }
+
+#contador {
+    background-color: red;
+    color:white;
+    font-weight: bolder;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    border-radius: 50px;
+}
