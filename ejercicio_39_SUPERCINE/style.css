@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Fondo oscuro */
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 4 tarjetas por fila */
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra en las tarjetas */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7); /* Efecto al pasar el mouse */
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #333;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h3 {
+    font-size: 1.4em;
+    margin: 0;
+    color: #f0f0f0;
+}
+
+.card-content p {
+    font-size: 0.9em;
+    margin: 5px 0;
+    color: #ccc;
+}
+
+.card-content .genre {
+    font-weight: bold;
+    color: #f39c12;
+}
+
+/* Responsividad */
+@media (max-width: 900px) {
+    #container {
+        grid-template-columns: repeat(3, 1fr); /* 3 tarjetas por fila en pantallas medianas */
+    }
+}
+
+@media (max-width: 600px) {
+    #container {
+        grid-template-columns: 1fr; /* 1 tarjeta por fila en pantallas pequeñas */
+    }
+}
