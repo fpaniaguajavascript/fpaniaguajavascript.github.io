@@ -1,4 +1,4 @@
-let URL = 'http://www.omdbapi.com/?apikey=';
+let URL = 'https://www.omdbapi.com/?apikey=';
 
 let peliculas;
 let peliculasFiltradas;
