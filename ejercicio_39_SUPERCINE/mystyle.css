@@ -1,0 +1,45 @@
+#div-formulario {
+    padding: 1em;
+    text-align: center;
+}
+
+
+#div-formulario div {
+    margin-bottom: 0.5em;
+}
+
+#div-formulario input,
+button,
+select {
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+#div-formulario button {
+    background-color: rgb(77, 176, 1);
+}
+
+#div-formulario button:hover {
+    background-color: rgb(29, 109, 15);
+    cursor: pointer;
+}
+
+.card-content h3 {
+    font-size: 1.1em;
+}
+
+.card img {
+    height: 70%;
+}
+
+.card-content p:nth-child(3),p:nth-child(4) {
+    font-size: 0.70em;
+}
+
+#contador {
+    background-color: red;
+    color:white;
+    font-weight: bolder;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    border-radius: 50px;
+}

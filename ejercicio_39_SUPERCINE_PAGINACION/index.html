@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Super Pelis</title>
+</head>
+
+<body>
+    <div id="div-formulario">
+        <div id="div-omdb">
+            <input type="text" id="t-titulo-omdb" placeholder="Título">
+            <input type="text" id="t-apikey" placeholder="OMDB API Key">
+            <button id="b-buscar-omdb">Buscar en OMDB</button>
+        </div>
+        <div id="pagination-controls"></div>
+        <div>
+            <input type="text" id="t-titulo" placeholder="Título">
+            <select id="s-tipo">
+                <!--<option value="drama">Drama</option>-->
+            </select>
+            <input type="number" id="t-anyo" placeholder="Año" min="1900" max="2030">
+            <button id="b-anyo">Buscar</button>
+            <button id="b-reiniciar">Reiniciar</button>
+            <span id="contador"></span>
+        </div>
+    </div>
+    <div id="container">
+        <!-- Tarjeta 1 -->
+        <!--
+        <div class="card">
+            <img src="https://via.placeholder.com/300x450" alt="Póster de película">
+            <div class="card-content">
+                <h3>El Padrino</h3>
+                <p><strong>Año:</strong> 1972</p>
+                <p><span class="genre">Género:</span> Drama, Crimen</p>
+            </div>
+        </div>
+        -->
+    </div>
+</body>
+
+</html>
+<script src="./myhttp.js"></script>
+<script src="./persistence.manager.js"></script>
+<script src="./app.js"></script>
+<script src="./gestor_busquedas.js"></script>
